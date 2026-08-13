@@ -1,0 +1,35 @@
+{
+  "name": "web_assignment",
+  "version": "1.0.0",
+  "description": "Daraz.lk Playwright test automation framework with Page Object Model",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:chromium": "playwright test --project=chromium",
+    "test:smoke": "playwright test --grep @smoke",
+    "test:high": "playwright test --grep @high",
+    "test:login": "playwright test tests/login.spec.js",
+    "test:home": "playwright test tests/home.spec.js",
+    "test:auth": "playwright test tests/auth.spec.js",
+    "test:search": "playwright test tests/search.spec.js",
+    "test:product": "playwright test tests/product.spec.js",
+    "test:cart": "playwright test tests/cart.spec.js",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "report": "playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "daraz",
+    "e2e",
+    "automation"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "@types/node": "^26.2.0",
+    "dotenv": "^16.6.1"
+  }
+}

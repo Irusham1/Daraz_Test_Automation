@@ -1,0 +1,10 @@
+{
+  "validKeywords": ["laptop", "phone", "headphones"],
+  "invalidKeyword": "xyznonexistentproduct999888777",
+  "consecutiveKeywords": ["laptop", "shoes"],
+  "priceFilter": {
+    "min": "1000",
+    "max": "50000"
+  },
+  "brandFilter": "Samsung"
+}
